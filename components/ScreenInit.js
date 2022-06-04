@@ -30,10 +30,10 @@ export default function ScreenInit() {
               			}}>
                   			devSirNaelC7.
             		</Text>
-            		<br />{' '}
+            		<br />
             		<Text color={'blue.400'} as={'span'}>
                 		I create some things for the internet.
-            		</Text>{' '}
+            		</Text>
           		</Heading>
           		<Stack maxW={'2xl'}>
             		<Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
