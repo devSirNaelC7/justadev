@@ -13,7 +13,7 @@ export default function ScreenInit() {
 			<Stack spacing={6} w={'full'} maxW={'3xl'} >
 				<Heading fontSize={{ base: '4xl', md: '5xl', lg: '6xl' }}>
             		<Text fontSize={{ base: '15px', md: '18px', lg: '21px' }}>
-                		Hi, i'm
+                		Hi, i&apos;m
             		</Text>
             		<Text
               		as={'span'}
@@ -37,9 +37,9 @@ export default function ScreenInit() {
           		</Heading>
           		<Stack maxW={'2xl'}>
             		<Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-                		I'm a computer technician specializing in building 
+                		I&apos;m a computer technician specializing in building 
                 		(and occasionally designing) exceptional digital 
-                		experiences.Currently, I'm focused on studies in 
+                		experiences.Currently, I&apos;m focused on studies in 
                 		JavaScript, TypeScript, ReactJS and NextJS.
             		</Text>
           		</Stack>

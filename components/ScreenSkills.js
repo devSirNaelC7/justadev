@@ -24,10 +24,10 @@ export default function ScreenSkills() {
                 	</Flex>
           		</Heading>
             	<Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-					I'm at the beginning of my journey as a frontend developer, 
+					I &apos;m at the beginning of my journey as a frontend developer, 
 					a junior or something looking for the fullstack title. 
 					Somewhere on this page there are illustrations of the 
-					technologies I've done well while coding.
+					technologies I &apos;ve done well while coding.
           		</Text>
         	</Stack>
       	</Flex>
