@@ -19,7 +19,7 @@ export default function ScreenSkills() {
 							02.
 						</Text>
 						<Text as={'span'} position={'relative'}>
-							Experience '
+							Experience
                     	</Text>
                 	</Flex>
           		</Heading>

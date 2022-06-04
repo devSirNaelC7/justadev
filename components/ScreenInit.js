@@ -40,7 +40,7 @@ export default function ScreenInit() {
                 		I'm a computer technician specializing in building 
                 		(and occasionally designing) exceptional digital 
                 		experiences.Currently, I'm focused on studies in 
-                		JavaScript, TypeScript, React.js and Next.js.
+                		JavaScript, TypeScript, ReactJS and NextJS.
             		</Text>
           		</Stack>
         	</Stack>
