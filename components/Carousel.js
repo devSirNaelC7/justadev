@@ -22,7 +22,7 @@ const settings = {
   slidesToScroll: 1,
 };
 
-export default function CaptionCarousel() {
+export default function Carousel() {
   const [slider, setSlider] = React.useState(null);
 
   const top = useBreakpointValue({ base: '90%', md: '50%' });
@@ -33,27 +33,23 @@ export default function CaptionCarousel() {
       title: 'Java',
       text:
         "Java was the first language that I had contact with the world of programming, I didn't apply it in projects but I have the property to develop it if necessary.",
-      image:
-        '',
+
     },
     {
       title: 'Python',
       text:
         "Python is my favorite language, and also the one I'm most familiar with, used to solve programming exercises on the platforms: CodeWars and Beecrowd.",
-      image:
-        '',
+ 
     },
     {
       title: 'JavaScript',
       text:
         "JavaScript is the predominant language in web development, impossible to ignore, yet another endeavor, a new form of interpretation.",
-      image:
-        '',
+
     },
   ];
-
-  return (
-    <Box
+  	return (
+	<Box
     position={'relative'}
 	maxW={'md'}
 	maxH={'sm'}
@@ -85,9 +81,7 @@ export default function CaptionCarousel() {
 			height={'3xl'}
 			backgroundPosition="center"
 			mt={{base:'0px', md:'80px', lg:'80px'}}
-			backgroundRepeat="no-repeat"
-			backgroundSize="cover"
-			backgroundImage={`url(${card.image})`}>
+			backgroundRepeat="no-repeat">
 				{/* This is the block you need to change, to customize the caption */}
 				<Container m={0} p={6} maxW={'lg'} h={'250px'} position="absolute" mt={{base:'0px', md:'80px', lg:'80px'}} >
 					<Flex
