@@ -34,7 +34,6 @@ export default function About() {
         </Flex>
         <Flex flex={1} justify={'center'} align={'center'} >
             <Flex mt={'50px'} mb={'50px'}>
-            	<Image />
             </Flex>
         </Flex>
     </Stack>
